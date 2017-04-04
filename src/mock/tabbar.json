@@ -1,0 +1,27 @@
+{
+    "tabbar": [{
+        "index": 1,
+        "title": "首页",
+        "url": "/home",
+        "dafaultIcon": "//ojn81nujc.qnssl.com/1487318095sy.png",
+        "activeIcon": "//ojn81nujc.qnssl.com/1487318124sy1.png"
+    }, {
+        "index": 2,
+        "title": "分类",
+        "url": "/category",
+        "dafaultIcon": "//ojn81nujc.qnssl.com/1487318229fl.png",
+        "activeIcon": "//ojn81nujc.qnssl.com/1487318248fl1.png"
+    }, {
+        "index": 3,
+        "title": "购物车",
+        "url": "/cart",
+        "dafaultIcon": "//ojn81nujc.qnssl.com/1487318209gwc.png",
+        "activeIcon": "//ojn81nujc.qnssl.com/1487318151gwc1.png"
+    }, {
+        "index": 4,
+        "title": "我的",
+        "url": "/my",
+        "dafaultIcon": "//ojn81nujc.qnssl.com/1487318172gr.png",
+        "activeIcon": "//ojn81nujc.qnssl.com/1487318190gr1.png"
+    }]
+}
