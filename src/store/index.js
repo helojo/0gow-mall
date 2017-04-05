@@ -17,7 +17,8 @@ const state = {
     cartPageData: {},
     isShowLoadingTips: false,
     isShowLoadedTips: false,
-    busy: false
+    busy: false,
+    swiperData: {}
 }
 
 export default new Vuex.Store({

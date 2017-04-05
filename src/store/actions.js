@@ -3,8 +3,13 @@ import * as types from './mutation-types.js';
 
 
 export default {
-    getHomePageData() {
-
+    getHomePageData({ commit, state }) {
+        axios.get('../mock/homePageData.json').then((response) => {
+            if (response.data.code == 1) {
+                console.log(response);
+                commit(types.GET_HOME_PAGE_DATA, response.data);
+            }
+        })
     },
     getTabbarData({ commit, state }) {
         axios.get('../mock/tabbar.json').then((response) => {
@@ -25,5 +30,12 @@ export default {
     },
     handleScroll() {
 
+    },
+    getSwiperData({ commit, state }) {
+        axios.get('../mock/homePageData.json').then((response) => {
+            if (response.data.code == 1) {
+                commit(types.GET_SWIPER_DATA, response.data.topBanner);
+            }
+        })
     }
 }

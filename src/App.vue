@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
+    <tab-bar></tab-bar>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import TabBar from './components/tabbar.vue';
+
 export default {
-  name: 'app'
+  name: 'app',
+  components : {
+      TabBar
+  }
 }
 </script>
 
@@ -18,6 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #eee;
 }
 </style>

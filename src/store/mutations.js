@@ -7,10 +7,14 @@ import {
     GET_MY_PAGE_DATA,
     GET_TABBAR_DATA,
     IS_SHOW_LOADING_TIPS,
-    IS_SHOW_LOADED_TIPS
+    IS_SHOW_LOADED_TIPS,
+    GET_SWIPER_DATA
 } from './mutation-types.js'
 
 export default {
+    [GET_SWIPER_DATA](state, obj) {
+        state.swiperData = obj;
+    },
     [IS_FIXED_HEADER](state, bool) {
         state.isFixedHeader = bool;
     },

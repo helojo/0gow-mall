@@ -1,5 +1,5 @@
 <template>
-    <tab-bar></tab-bar>
+    <!--<tab-bar></tab-bar>-->
 </template>
 <script>
     import TabBar from '../../components/tabbar.vue'
@@ -10,8 +10,8 @@
 
             }
         },
-        components : {
-            TabBar
-        }
+        // components : {
+        //     TabBar
+        // }
     }
 </script>

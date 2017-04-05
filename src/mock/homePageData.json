@@ -1,0 +1,273 @@
+{
+    "code": 1,
+    "msg": "操作成功",
+    "topBanner": {
+        "ad_id": "13",
+        "items": [{
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f229",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58ddf5292d96d?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "春夏新品"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f240",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e44d1d7f628?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "一周精选"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f238",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e448deecaca?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "男女内衣"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f237",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e49ea310d13?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "天天特惠"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f236",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e0564db30f4?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "美发沐浴"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f235",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e0532d43f24?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "居家"
+            }
+        ]
+    },
+    "adBanner": {
+        "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f229",
+        "image": "https://ojn81nujc.qnssl.com/content0gow_58e44c5e850f5?imageMogr2/strip/quality/80/format/jpeg",
+        "title": "春夏入口",
+        "ad_id": "14"
+    },
+    "xn": {
+        "nums": "1",
+        "url": "http://u.0gow.com/user/xn",
+        "img": "https://ojn81nujc.qnssl.com/1481189510message.png"
+    },
+    "icons": [{
+            "url": "http://a1.meiyameiwang.cn/category/mian",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572a4fb6?imageMogr2/strip/quality/80/format/gif",
+            "title": "O圆区"
+        },
+        {
+            "url": "http://www.0gow.com/category/zero?id=0&pid=0&",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572b10db?imageMogr2/strip/quality/80/format/png",
+            "title": "特卖推荐"
+        },
+        {
+            "url": "http://www.0gow.com/category/index?id=0&pid=0&",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572c158e?imageMogr2/strip/quality/80/format/png",
+            "title": "精品区"
+        },
+        {
+            "url": "http://act.0gow.com/miaosha/index?",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572eca0e?imageMogr2/strip/quality/80/format/png",
+            "title": "秒杀"
+        },
+        {
+            "url": "http://www.0gow.com/region/index?",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572d7dc9?imageMogr2/strip/quality/80/format/png",
+            "title": "每日上新"
+        },
+        {
+            "url": "http://www.0gow.com/brand/index?",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572ccb51?imageMogr2/strip/quality/80/format/png",
+            "title": "品牌街"
+        },
+        {
+            "url": "http://www.0gow.com/subject/155?",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572e1821?imageMogr2/strip/quality/80/format/png",
+            "title": "天天特惠"
+        },
+        {
+            "url": "http://act.0gow.com//pt/index?",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e57305451?imageMogr2/strip/quality/80/format/png",
+            "title": "拼团"
+        }
+    ],
+    "articleUrl": "/article/index",
+    "articleInfo": [{
+            "article_id": "1614",
+            "class_id": "3",
+            "title": "清明之后咋养生，记住2甜3菜4汤"
+        },
+        {
+            "article_id": "1613",
+            "class_id": "1",
+            "title": "今日专题推荐"
+        },
+        {
+            "article_id": "1611",
+            "class_id": "3",
+            "title": "为了靠近你，我费了多少的气力"
+        },
+        {
+            "article_id": "1607",
+            "class_id": "1",
+            "title": "马云穿的这双鞋火了，身价百亿鞋品却很任性"
+        },
+        {
+            "article_id": "1606",
+            "class_id": "1",
+            "title": "男生四月这样穿，轻松虏获美人心（男装69元封顶）"
+        },
+        {
+            "article_id": "1604",
+            "class_id": "5",
+            "title": "哥哥：14年了，还总以为是愚人节新闻"
+        },
+        {
+            "article_id": "1603",
+            "class_id": "1",
+            "title": "愚人节被表白怎么办？在线等"
+        },
+        {
+            "article_id": "1602",
+            "class_id": "1",
+            "title": "春夏必穿的鞋子，回头率200%"
+        },
+        {
+            "article_id": "1600",
+            "class_id": "1",
+            "title": "哄好女人这两招就够了"
+        },
+        {
+            "article_id": "1593",
+            "class_id": "4",
+            "title": "经典！制度的力量"
+        },
+        {
+            "article_id": "1592",
+            "class_id": "5",
+            "title": "世上最孤独的是父亲"
+        },
+        {
+            "article_id": "1587",
+            "class_id": "3",
+            "title": "择一城自驾 遇一城旅游 零妹妹的爱你值得拥有"
+        },
+        {
+            "article_id": "1586",
+            "class_id": "3",
+            "title": "学点人像摄影技巧 出去浪 方才不负好时光"
+        },
+        {
+            "article_id": "1578",
+            "class_id": "5",
+            "title": "爱情要谈钱，方能地久天长"
+        },
+        {
+            "article_id": "1574",
+            "class_id": "4",
+            "title": "创业 | 绝不是细节决定成败！"
+        },
+        {
+            "article_id": "1573",
+            "class_id": "3",
+            "title": "你以为吹风机只能用来吹头发？那就太OUT了！"
+        },
+        {
+            "article_id": "1572",
+            "class_id": "3",
+            "title": "耳环选对了，脸都变美了"
+        },
+        {
+            "article_id": "1559",
+            "class_id": "3",
+            "title": "世间最美的十封信，写给此刻的你......"
+        },
+        {
+            "article_id": "1555",
+            "class_id": "3",
+            "title": "家，包容越多幸福越多"
+        },
+        {
+            "article_id": "1554",
+            "class_id": "3",
+            "title": "关于男生追女生的一些扎心小建议"
+        }
+    ],
+    "hot": {
+        "left": {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f237",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e49e417483f?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "天天特惠",
+            "ad_id": "19"
+        },
+        "right1": {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f240",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e467dad46b3?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "一周精选",
+            "ad_id": "20"
+        },
+        "right2": {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f238",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e467ffa3bb3?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "男女内衣",
+            "ad_id": "21"
+        }
+    },
+    "jingpin": {
+        "left": {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f232",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58df001e821c0?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "男装",
+            "ad_id": "17"
+        },
+        "right": {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f228",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58df009203021?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "女装",
+            "ad_id": "16"
+        }
+    },
+    "category": [{
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f206",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee20867f?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "童装童鞋"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f211",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cce293?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "美妆"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f233",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cda2a2?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "男鞋"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f220",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee23c317?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "家居生活"
+        },
+        {
+            "url": "http://www.0gow.com/category/newlist?id=326&pid=427",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d13c0b4?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "男装"
+        },
+        {
+            "url": "http://www.0gow.com/category/newlist?id=395&pid=392",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a613dd?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "家用电器"
+        },
+        {
+            "url": "http://www.0gow.com/category/newarea?id=338",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a6dfef?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "运动户外"
+        },
+        {
+            "url": "http://www.0gow.com/category/newlist?id=325&pid=427",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d14a857?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "女装"
+        }
+    ],
+    "uid": 42251025,
+    "new_user": {
+        "is_new_user": 0,
+        "is_send_quan": 0,
+        "background": "https://ojn81nujc.qnssl.com/1486200854newpeopleticket.jpg"
+    }
+}
