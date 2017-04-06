@@ -1,8 +1,11 @@
 <template>
-    <!--<tab-bar></tab-bar>-->
+   <div class="category">
+       <search-bar></search-bar>
+   </div>
 </template>
+
 <script>
-    import TabBar from '../../components/tabbar.vue'
+    import SearchBar from '../../components/searchBar.vue';
 
     export default{
         data(){
@@ -10,8 +13,8 @@
 
             }
         },
-        // components : {
-        //     TabBar
-        // }
+        components : {
+            SearchBar
+        }
     }
 </script>
