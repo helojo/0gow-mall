@@ -3,7 +3,7 @@
         <swiper :options="swiperOption">
             <swiper-slide v-for="(item, index) in swiperData.items" :key="index">
                 <a :href = "item.url">
-                    <img :src="item.image" class="slideImg" />
+                    <img v-lazy="item.image" class="slideImg" />
                 </a>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>

@@ -28,13 +28,39 @@ export default {
     getMyPageData() {
 
     },
-    handleScroll() {
-
+    handleScroll({ commit, state }) {
+        console.log("from handleScroll");
+        let _scrollTop = document.body.scrollTop;
+        if (_scrollTop > 50) {
+            state.isTopBarShow = true;
+            state.isToTopBarShow = true;
+        } else {
+            state.isTopBarShow = false;
+            state.isToTopBarShow = false;
+        }
     },
     getSwiperData({ commit, state }) {
         axios.get('../mock/homePageData.json').then((response) => {
             if (response.data.code == 1) {
                 commit(types.GET_SWIPER_DATA, response.data.topBanner);
+            }
+        })
+    },
+    getGoodsListData({ commit, state }) {
+        state.busy = true;
+        state.isShowLoadingTips = true;
+        if (state.goodsListNums > 5) {
+            state.isShowLoadingTips = false;
+            state.isShowLoadedTips = true;
+            state.busy = true;
+            return false;
+        }
+        axios.get('../mock/goodsList.json').then((response) => {
+            if (response.data.code == 1) {
+                commit(types.GET_GOODS_LIST_DATA, response.data.list);
+                commit(types.CHANGE_GOODS_LIST_NUMS, ++state.goodsListNums);
+                state.busy = false;
+                state.isShowLoadingTips = false;
             }
         })
     }

@@ -82,3 +82,15 @@
 .fa-comment:before {
     content: "\f075"
 }
+
+.fa-spinner:before {
+    content: "\f110"
+}
+
+.fa-smile-o:before {
+    content: "\f118"
+}
+
+.fa-arrow-up:before {
+    content: "\f062"
+}

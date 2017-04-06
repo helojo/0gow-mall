@@ -221,49 +221,50 @@
             "image": "https://ojn81nujc.qnssl.com/content0gow_58df009203021?imageMogr2/strip/quality/80/format/jpeg",
             "title": "女装",
             "ad_id": "16"
-        }
+        },
+        "category": [{
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f206",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee20867f?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "童装童鞋"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f211",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cce293?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "美妆"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f233",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cda2a2?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "男鞋"
+            },
+            {
+                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f220",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee23c317?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "家居生活"
+            },
+            {
+                "url": "http://www.0gow.com/category/newlist?id=326&pid=427",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d13c0b4?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "男装"
+            },
+            {
+                "url": "http://www.0gow.com/category/newlist?id=395&pid=392",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a613dd?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "家用电器"
+            },
+            {
+                "url": "http://www.0gow.com/category/newarea?id=338",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a6dfef?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "运动户外"
+            },
+            {
+                "url": "http://www.0gow.com/category/newlist?id=325&pid=427",
+                "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d14a857?imageMogr2/strip/quality/80/format/jpeg",
+                "title": "女装"
+            }
+        ]
     },
-    "category": [{
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f206",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee20867f?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "童装童鞋"
-        },
-        {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f211",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cce293?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "美妆"
-        },
-        {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f233",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cda2a2?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "男鞋"
-        },
-        {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f220",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee23c317?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "家居生活"
-        },
-        {
-            "url": "http://www.0gow.com/category/newlist?id=326&pid=427",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d13c0b4?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "男装"
-        },
-        {
-            "url": "http://www.0gow.com/category/newlist?id=395&pid=392",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a613dd?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "家用电器"
-        },
-        {
-            "url": "http://www.0gow.com/category/newarea?id=338",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a6dfef?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "运动户外"
-        },
-        {
-            "url": "http://www.0gow.com/category/newlist?id=325&pid=427",
-            "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d14a857?imageMogr2/strip/quality/80/format/jpeg",
-            "title": "女装"
-        }
-    ],
+
     "uid": 42251025,
     "new_user": {
         "is_new_user": 0,

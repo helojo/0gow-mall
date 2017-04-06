@@ -3,14 +3,26 @@
         <search-bar></search-bar>
         <slide></slide>
         <div v-if="homePageData.adBanner" class="adverBanner">
-            <img :src="homePageData.adBanner.image" />
+            <img v-lazy="homePageData.adBanner.image" />
         </div>
+        <home-category :homeCategoryData="homePageData.icons"></home-category>
+        <hot-area :hotAreaData = "homePageData.hot"></hot-area>
+        <jing-pin :jingPinData = "homePageData.jingpin"></jing-pin>
+        <goods-list></goods-list>
+        <to-top></to-top>
     </div>
 </template>
 <script>
     import SearchBar from '../../components/searchBar.vue'
     import Slide from '../../components/slide.vue'
+    import HomeCategory from './homeCategory.vue'
+    import HotArea from './hotArea.vue'
+    import JingPin from './jingPin.vue'
+    import GoodsList from './goodsList.vue'
+    import ToTop from '../../components/toTop.vue'
+
     import { mapState, mapActions} from 'vuex'
+    import {debounce} from 'lodash'
 
     export default{
         data(){
@@ -18,17 +30,23 @@
             }
         },
         computed : {
-            ...mapState(['homePageData'])
+            ...mapState(['homePageData', 'isShowLoadingTips'])
         },
         methods : {
-            ...mapActions(['getHomePageData'])
+            ...mapActions(['getHomePageData', 'handleScroll'])
         },
         mounted(){
             this.getHomePageData();
+            window.addEventListener('scroll', debounce(this.handleScroll, 500));
         },
         components : {
             SearchBar,
-            Slide
+            Slide,
+            HomeCategory,
+            HotArea,
+            JingPin,
+            GoodsList,
+            ToTop
         }
     }
 </script>

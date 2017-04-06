@@ -18,7 +18,11 @@ const state = {
     isShowLoadingTips: false,
     isShowLoadedTips: false,
     busy: false,
-    swiperData: {}
+    swiperData: {},
+    goodsListData: [],
+    goodsListNums: 1,
+    isTopBarShow: false,
+    isToTopBarShow: false
 }
 
 export default new Vuex.Store({

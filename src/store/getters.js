@@ -8,5 +8,7 @@ export default {
     cartPageData: state => state.cartPageData,
     isShowLoadingTips: state => state.isShowLoadingTips,
     isShowLoadedTips: state => state.isShowLoadedTips,
-    busy: state => state.busy
+    busy: state => state.busy,
+    goodsListData: state => state.goodsListData,
+    goodsListNums: state => state.goodsListNums
 }

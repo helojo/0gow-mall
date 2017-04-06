@@ -8,7 +8,9 @@ import {
     GET_TABBAR_DATA,
     IS_SHOW_LOADING_TIPS,
     IS_SHOW_LOADED_TIPS,
-    GET_SWIPER_DATA
+    GET_SWIPER_DATA,
+    GET_GOODS_LIST_DATA,
+    CHANGE_GOODS_LIST_NUMS
 } from './mutation-types.js'
 
 export default {
@@ -41,5 +43,11 @@ export default {
     },
     [IS_SHOW_LOADED_TIPS](state, bool) {
         state.isShowLoadedTips = bool
+    },
+    [GET_GOODS_LIST_DATA](state, arr) {
+        state.goodsListData.push(...arr);
+    },
+    [CHANGE_GOODS_LIST_NUMS](state, number) {
+        state.goodsListNums = number;
     }
 }
