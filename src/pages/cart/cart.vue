@@ -1,17 +1,25 @@
 <template>
-    <!--<tab-bar></tab-bar>-->
+    <div class="cart">
+        <div class="store">
+            <div class="storeInfo"></div>
+            <ol>
+                
+            </ol>
+        </div>
+    </div>
+
 </template>
 <script>
-    import TabBar from '../../components/tabbar.vue'
+    
 
     export default{
         data(){
             return{
 
             }
-        },
-        // components : {
-        //     TabBar
-        // }
+        }
     }
 </script>
+<style lang="css">
+    
+</style>

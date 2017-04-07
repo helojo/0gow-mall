@@ -10,5 +10,6 @@ export default {
     isShowLoadedTips: state => state.isShowLoadedTips,
     busy: state => state.busy,
     goodsListData: state => state.goodsListData,
-    goodsListNums: state => state.goodsListNums
+    goodsListNums: state => state.goodsListNums,
+    categoryRightData: state => state.categoryRightData
 }

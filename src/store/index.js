@@ -11,7 +11,8 @@ const state = {
     isFixedHeader: false,
     isShowSearchComp: false,
     homePageData: {},
-    categoryPageData: {},
+    categoryPageData: [],
+    categoryRightData: [],
     myPageData: {},
     tabBarData: {},
     cartPageData: {},
@@ -22,7 +23,8 @@ const state = {
     goodsListData: [],
     goodsListNums: 1,
     isTopBarShow: false,
-    isToTopBarShow: false
+    isToTopBarShow: false,
+    initIndex: 0
 }
 
 export default new Vuex.Store({

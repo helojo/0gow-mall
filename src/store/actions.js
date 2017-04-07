@@ -19,8 +19,17 @@ export default {
             }
         })
     },
-    getCategoryPageData() {
-
+    getCategoryPageData({ commit, state }) {
+        axios.get('../mock/categoryPageData.json').then((response) => {
+            if (response.data.code == 1) {
+                commit(types.GET_CATEGORY_PAGE_DATA, response.data.list);
+                commit(types.CHANGE_CATEGORY_RIGHT_DATA, 0);
+            }
+        })
+    },
+    changeCategoryRightData({ commit, state }, index) {
+        commit(types.CHANGE_CATEGORY_RIGHT_DATA, index);
+        commit(types.CHANGE_INITINDEX, index);
     },
     getCartPageData() {
 

@@ -10,7 +10,9 @@ import {
     IS_SHOW_LOADED_TIPS,
     GET_SWIPER_DATA,
     GET_GOODS_LIST_DATA,
-    CHANGE_GOODS_LIST_NUMS
+    CHANGE_GOODS_LIST_NUMS,
+    CHANGE_CATEGORY_RIGHT_DATA,
+    CHANGE_INITINDEX
 } from './mutation-types.js'
 
 export default {
@@ -49,5 +51,11 @@ export default {
     },
     [CHANGE_GOODS_LIST_NUMS](state, number) {
         state.goodsListNums = number;
+    },
+    [CHANGE_CATEGORY_RIGHT_DATA](state, index) {
+        state.categoryRightData = state.categoryPageData[index].list;
+    },
+    [CHANGE_INITINDEX](state, index) {
+        state.initIndex = index;
     }
 }

@@ -47,6 +47,7 @@
         display : flex;
         border-top: 1px solid #ccc;
         background-color: #fff;
+        z-index: 20;
     }
     .tabbar li{
         display : block;
