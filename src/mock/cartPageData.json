@@ -1,0 +1,225 @@
+{
+    "code": 1,
+    "msg": "操作成功",
+    "totalGoods": 8,
+    "hasPtCoupon": 0,
+    "list": [{
+            "store_id": 15069,
+            "store_name": "帝新旗舰店",
+            "presale_qq": "625715849",
+            "store_coupon": 0,
+            "goods": [{
+                "cart_id": "4852907",
+                "goods_id": "174567",
+                "spec_id": "0",
+                "quantity": "2",
+                "bindGoodsID": "174567",
+                "scid": "0",
+                "updatetime": "2017-03-27 14:27:28",
+                "show_checked": 0,
+                "is_onsale": 1,
+                "is_shortage": 2,
+                "product_info": {
+                    "goods_name": "大红袍浓香型140G",
+                    "default_image": "https://ojn98tluc.qnssl.com/pic0gow_5879bf49a1200?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+                    "type": "base",
+                    "Price": 20,
+                    "wlPrice": 0,
+                    "goodsNowStock": "2520",
+                    "is_onsale": "1",
+                    "is_show": "1",
+                    "area_id": "1"
+                }
+            }]
+        },
+        {
+            "store_id": 13833,
+            "store_name": "渔满沧",
+            "presale_qq": "3030152786",
+            "store_coupon": 0,
+            "goods": [{
+                    "cart_id": "4852917",
+                    "goods_id": "260893",
+                    "spec_id": "0",
+                    "quantity": "1",
+                    "bindGoodsID": "260893",
+                    "scid": "0",
+                    "updatetime": "2017-03-27 14:27:28",
+                    "show_checked": 0,
+                    "is_onsale": 1,
+                    "is_shortage": 2,
+                    "product_info": {
+                        "goods_name": "淡干金钩海米500g",
+                        "default_image": "https://ojn81nujc.qnssl.com/content0gow_58e4963c2a4a0?imageMogr2/thumbnail/320x/strip/quality/80/format/jpg",
+                        "type": "base",
+                        "Price": 37,
+                        "wlPrice": 0,
+                        "goodsNowStock": "9723",
+                        "is_onsale": "1",
+                        "is_show": "1",
+                        "area_id": "2"
+                    }
+                },
+                {
+                    "cart_id": "4852911",
+                    "goods_id": "256443",
+                    "spec_id": "0",
+                    "quantity": "1",
+                    "bindGoodsID": "256443",
+                    "scid": "0",
+                    "updatetime": "2017-03-27 14:27:28",
+                    "show_checked": 0,
+                    "is_onsale": 1,
+                    "is_shortage": 2,
+                    "product_info": {
+                        "goods_name": "新货红娘鱼干500克",
+                        "default_image": "https://ojn98tluc.qnssl.com/pic0gow_5872f7fe32822?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+                        "type": "base",
+                        "Price": 15.8,
+                        "wlPrice": 0,
+                        "goodsNowStock": "157",
+                        "is_onsale": "1",
+                        "is_show": "1",
+                        "area_id": "1"
+                    }
+                },
+                {
+                    "cart_id": "4852919",
+                    "goods_id": "194322",
+                    "spec_id": "0",
+                    "quantity": "1",
+                    "bindGoodsID": "194322",
+                    "scid": "146",
+                    "updatetime": "2017-03-08 19:26:19",
+                    "show_checked": 0,
+                    "is_onsale": 0,
+                    "is_shortage": 1,
+                    "spec_attr": null,
+                    "product_info": {
+                        "goods_name": "野生淡干小银鱼500克",
+                        "default_image": "https://ojn98tluc.qnssl.com/pic0gow_5872fde26c509?imageMogr2/thumbnail/240x/strip/quality/75/format/jpg",
+                        "Price": 18.9,
+                        "wlPrice": 0
+                    }
+                }
+            ]
+        },
+        {
+            "store_id": 6482,
+            "store_name": "存旭美食家",
+            "presale_qq": "2243480853",
+            "store_coupon": 0,
+            "goods": [{
+                "cart_id": "4852915",
+                "goods_id": "345355",
+                "spec_id": "0",
+                "quantity": "1",
+                "bindGoodsID": "345355",
+                "scid": "0",
+                "updatetime": "2017-01-20 16:23:39",
+                "show_checked": 0,
+                "is_onsale": 1,
+                "is_shortage": 2,
+                "product_info": {
+                    "goods_name": "扒鸡烧鸡550g送礼物",
+                    "default_image": "https://ojn98tluc.qnssl.com/pic0gow_58783d35d414b?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+                    "type": "base",
+                    "Price": 19.5,
+                    "wlPrice": 0,
+                    "goodsNowStock": "1737",
+                    "is_onsale": "1",
+                    "is_show": "1",
+                    "area_id": "1"
+                }
+            }]
+        },
+        {
+            "store_id": 181,
+            "store_name": "林家食品专营店",
+            "presale_qq": "3070547954",
+            "store_coupon": 0,
+            "goods": [{
+                "cart_id": "4852914",
+                "goods_id": "90841",
+                "spec_id": "0",
+                "quantity": "1",
+                "bindGoodsID": "90841",
+                "scid": "0",
+                "updatetime": "2017-01-20 16:23:38",
+                "show_checked": 0,
+                "is_onsale": 1,
+                "is_shortage": 2,
+                "product_info": {
+                    "goods_name": "灰枣夹核桃250g",
+                    "default_image": "https://ojn98tluc.qnssl.com/pic0gow_5872017eacd1c?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+                    "type": "base",
+                    "Price": 18,
+                    "wlPrice": 0,
+                    "goodsNowStock": "4510",
+                    "is_onsale": "1",
+                    "is_show": "1",
+                    "area_id": "1"
+                }
+            }]
+        },
+        {
+            "store_id": 12346,
+            "store_name": "享受购",
+            "presale_qq": "3424486948",
+            "store_coupon": 0,
+            "goods": [{
+                "cart_id": "4852913",
+                "goods_id": "78485",
+                "spec_id": "245835",
+                "quantity": "1",
+                "bindGoodsID": "289046",
+                "scid": "0",
+                "updatetime": "2017-01-20 16:23:37",
+                "show_checked": 0,
+                "is_onsale": 1,
+                "spec_attr": {
+                    "spec_1Attr": "5盒牙膏=护龈固齿1盒 改善牙龈出血1盒 赠体验装3盒",
+                    "spec_2Attr": "",
+                    "bindGoodsID": "289046"
+                },
+                "product_info": {
+                    "Price": 18,
+                    "wlPrice": 0,
+                    "goods_name": "牙膏1-5盒超值组合",
+                    "default_image": "https://ojn98tluc.qnssl.com/pic0gow_58069f05424de?imageMogr2/thumbnail/240x/strip/quality/75/format/jpg",
+                    "area_id": "1"
+                },
+                "is_shortage": 2
+            }]
+        },
+        {
+            "store_id": 11732,
+            "store_name": "志铭祥茶叶",
+            "presale_qq": "874535071",
+            "store_coupon": 0,
+            "goods": [{
+                "cart_id": "4852910",
+                "goods_id": "137759",
+                "spec_id": "0",
+                "quantity": "1",
+                "bindGoodsID": "137759",
+                "scid": "0",
+                "updatetime": "2017-01-20 16:23:33",
+                "show_checked": 0,
+                "is_onsale": 1,
+                "is_shortage": 2,
+                "product_info": {
+                    "goods_name": "新茶 大红袍茶叶120G",
+                    "default_image": "http://ojn98tluc.qnssl.com/pic0gow_58a31308c556e?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+                    "type": "base",
+                    "Price": 17,
+                    "wlPrice": 0,
+                    "goodsNowStock": "98944",
+                    "is_onsale": "1",
+                    "is_show": "1",
+                    "area_id": "1"
+                }
+            }]
+        }
+    ]
+}

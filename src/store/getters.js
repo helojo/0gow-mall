@@ -5,7 +5,6 @@ export default {
     categoryPageData: state => state.categoryPageData,
     myPageData: state => state.myPageData,
     tabBarData: state => state.tabBarData,
-    cartPageData: state => state.cartPageData,
     isShowLoadingTips: state => state.isShowLoadingTips,
     isShowLoadedTips: state => state.isShowLoadedTips,
     busy: state => state.busy,

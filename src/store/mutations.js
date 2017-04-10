@@ -34,9 +34,6 @@ export default {
     [GET_TABBAR_DATA](state, obj) {
         state.tabBarData = obj;
     },
-    [GET_CART_PAGE_DATA](state, obj) {
-        state.cartPageData = obj;
-    },
     [GET_MY_PAGE_DATA](state, obj) {
         state.myPageData = obj;
     },
@@ -57,5 +54,5 @@ export default {
     },
     [CHANGE_INITINDEX](state, index) {
         state.initIndex = index;
-    }
+    },
 }

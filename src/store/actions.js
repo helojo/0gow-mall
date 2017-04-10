@@ -31,9 +31,6 @@ export default {
         commit(types.CHANGE_CATEGORY_RIGHT_DATA, index);
         commit(types.CHANGE_INITINDEX, index);
     },
-    getCartPageData() {
-
-    },
     getMyPageData() {
 
     },
