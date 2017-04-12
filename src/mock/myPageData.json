@@ -1,0 +1,116 @@
+{
+    "code": 1,
+    "msg": "操作成功",
+    "user": {
+        "uid": "42261413",
+        "nickname": "富士山下",
+        "name": "wx42261413",
+        "addtime": "16/10/06",
+        "subscribe": "1",
+        "sex": "1",
+        "membership": "0",
+        "level_vip": "1",
+        "avatar": "http://p5.0gow.com/icon0gow_583fdc6694810?imageMogr2/thumbnail/64x/strip/quality/80/format/jpg",
+        "level_name_wx": "少尉",
+        "level_name_app": "军侯",
+        "level_name_buyed": "少尉",
+        "has_address": 1,
+        "has_tel": 1,
+        "tel": "13117873685",
+        "m7_membership": 0,
+        "is_sign": 0,
+        "show_cfzx": 0,
+        "coupon_nums": "2",
+        "noship_num": "0",
+        "norecv_num": "0",
+        "thh_num": "0"
+    },
+    "thh": [{
+            "url": "/daifahuo",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484275643fahuo.png",
+            "title": "待发货"
+        },
+        {
+            "url": "/daishouhuo",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484279242shouhuo.png",
+            "title": "待收货"
+        },
+        {
+            "url": "/daipingjia",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484279194pinglun.png",
+            "title": "待评价"
+        },
+        {
+            "url": "/tuikuanshouhou",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285602tuikuan.png",
+            "title": "退款/售后"
+        },
+        {
+            "url": "/dingdan",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484275390dingdan.png",
+            "title": "全部订单"
+        }
+    ],
+    "tools": [{
+            "url": "/linggouquan",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285763yue.png",
+            "title": "零购券"
+        },
+        {
+            "url": "/youhuiquan",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285728youhuiquan.png",
+            "title": "优惠券"
+        },
+        {
+            "url": "/jifen",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484536902jifen.png",
+            "title": "积分"
+        },
+        {
+            "url": "/shoucangjia",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285665wodeshoucang.png",
+            "title": "收藏夹"
+        },
+        {
+            "url": "/huiyuantequan",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484278047huiyuantequan.png",
+            "title": "会员特权"
+        },
+        {
+            "url": "/zaixiankefu",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484278080kefu.png",
+            "title": "在线客服"
+        },
+        {
+            "url": "/shouhouweniti",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285620wenti.png",
+            "title": "售后问题"
+        },
+        {
+            "url": "/huafeichongzhi",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1490683730huafei.png",
+            "title": "话费充值"
+        }
+    ],
+    "lingyouquan": [{
+            "url": "/linngyouquan",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484278097lingyouquan.png",
+            "title": "零友圈"
+        },
+        {
+            "url": "/renwuzhongxin",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484279215renwuzhongxin.png",
+            "title": "任务中心"
+        },
+        {
+            "url": "/yaoqing",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285701yaoqing.png",
+            "title": "邀请赢福利"
+        },
+        {
+            "url": "/xinlu",
+            "imgSrc": "https://ojn81nujc.qnssl.com/1484285690xinlu.png",
+            "title": "心路历程"
+        }
+    ]
+}

@@ -19,6 +19,7 @@ import Home from '../pages/home/home.vue'
 import Category from '../pages/category/category.vue'
 import My from '../pages/my/my.vue'
 import Cart from '../pages/cart/cart.vue'
+import Product from '../pages/product/product.vue'
 
 Vue.use(VueRouter);
 
@@ -26,9 +27,7 @@ export default new VueRouter({
     linkActiveClass: 'active',
     routes: [{
             path: '/',
-            name: 'Home',
-            redirect: '/home',
-            component: Home
+            redirect: '/home'
         },
         {
             path: '/home',
@@ -49,6 +48,11 @@ export default new VueRouter({
             path: '/my',
             name: 'My',
             component: My
+        },
+        {
+            path: '/product',
+            name: 'Product',
+            component: Product
         }
     ]
 })

@@ -3,7 +3,6 @@ export default {
     isShowSearchComp: state => state.isShowSearchComp,
     homePageData: state => state.homePageData,
     categoryPageData: state => state.categoryPageData,
-    myPageData: state => state.myPageData,
     tabBarData: state => state.tabBarData,
     isShowLoadingTips: state => state.isShowLoadingTips,
     isShowLoadedTips: state => state.isShowLoadedTips,

@@ -4,6 +4,8 @@ import actions from './actions.js'
 import mutations from './mutations.js'
 import getters from './getters.js'
 import cart from './modules/cart.js'
+import my from './modules/my.js'
+
 
 Vue.use(Vuex);
 
@@ -14,7 +16,6 @@ const state = {
     homePageData: {},
     categoryPageData: [],
     categoryRightData: [],
-    myPageData: {},
     tabBarData: {},
     isShowLoadingTips: false,
     isShowLoadedTips: false,
@@ -33,7 +34,8 @@ export default new Vuex.Store({
     actions,
     mutations,
     modules: {
-        cart
+        cart,
+        my
     }
 
 })

@@ -2,7 +2,10 @@
   <div id="app">
     <!--<img src="./assets/logo.png">-->
     <tab-bar></tab-bar>
-    <router-view></router-view>
+    <transition name = "fade">
+      <router-view></router-view>
+    </transition>
+    
   </div>
 </template>
 
@@ -26,5 +29,11 @@ export default {
   color: #2c3e50;
   background-color: #eee;
   padding-bottom: 2rem;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
 }
 </style>
