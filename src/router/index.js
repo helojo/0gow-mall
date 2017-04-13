@@ -50,7 +50,7 @@ export default new VueRouter({
             component: My
         },
         {
-            path: '/product',
+            path: '/product/:id',
             name: 'Product',
             component: Product
         }

@@ -1,0 +1,119 @@
+{
+    "code": 1,
+    "mgs": "操作成功",
+    "sliders": [{
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f229",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58ddf5292d96d?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "春夏新品"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f240",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e44d1d7f628?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "一周精选"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f238",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e448deecaca?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "男女内衣"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f237",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e49ea310d13?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "天天特惠"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f236",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e0564db30f4?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "美发沐浴"
+        },
+        {
+            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f235",
+            "image": "https://ojn81nujc.qnssl.com/content0gow_58e0532d43f24?imageMogr2/strip/quality/80/format/jpeg",
+            "title": "居家"
+        }
+    ],
+    "info": {
+        "goodsNowStock": "914",
+        "goods_id": "377559",
+        "goods_name": "伊诗兰顿 欧丽源防晒霜",
+        "goods_title": "伊诗兰顿 欧丽源防晒霜50g 【防晒保湿 隔离 防水 防晒】",
+        "goods_des": "保湿补水 防晒 隔离",
+        "type": "base",
+        "default_image": "http://ojn98tluc.qnssl.com/pic0gow_58a59df023d8d?imageMogr2/thumbnail/320x/strip/quality/75/format/jpg",
+        "scPrice": "198.00",
+        "Price": "34.00",
+        "wlPrice": "0.00",
+        "add_time": "1488262749",
+        "seller_id": "6772",
+        "sale": "90",
+        "spec_id": 0,
+        "is_act": 0,
+        "coverCss": "",
+        "good_rate": "98.8",
+        "act_image": "",
+        "store_name": "第八号当铺",
+        "store_id": 6772,
+        "specification": ["红色", "白色", "黑色", "蓝色"],
+        "detail": {
+            "desc": [
+                "客服在线时间 ： 9:00 - 23 ：00",
+                "发货地址：浙江台州",
+                "物流公司 ： 韵达， 申通",
+                "发货时间 ： 36小时内"
+            ],
+            "pics": [
+                "https://ojn81nujc.qnssl.com/content0gow_58ddf5292d96d?imageMogr2/strip/quality/80/format/jpeg",
+                "https://ojn81nujc.qnssl.com/content0gow_58e44d1d7f628?imageMogr2/strip/quality/80/format/jpeg",
+                "https://ojn81nujc.qnssl.com/content0gow_58e448deecaca?imageMogr2/strip/quality/80/format/jpeg",
+                "https://ojn81nujc.qnssl.com/content0gow_58e0564db30f4?imageMogr2/strip/quality/80/format/jpeg",
+                "https://ojn81nujc.qnssl.com/content0gow_58e0532d43f24?imageMogr2/strip/quality/80/format/jpeg"
+            ]
+        },
+        "pingjia": [{
+                "name": "用户1",
+                "rate": "好评",
+                "text": "质量好，什么都好",
+                "time": "4周前"
+            },
+            {
+                "name": "用户2",
+                "rate": "中评",
+                "text": "质量好，什么都好,下次还来",
+                "time": "5周前"
+            },
+            {
+                "name": "用户3",
+                "rate": "好评",
+                "text": "质量好，什么都好",
+                "time": "4周前"
+            },
+            {
+                "name": "用户4",
+                "rate": "好评",
+                "text": "质量好，什么都好",
+                "time": "4周前"
+            }
+        ],
+        "deal_records": [{
+                "name": "用户1",
+                "num": "1",
+                "time": "5小时前"
+            },
+            {
+                "name": "用户2",
+                "num": "1",
+                "time": "5小时前"
+            },
+            {
+                "name": "用户3",
+                "num": "3",
+                "time": "6小时前"
+            },
+            {
+                "name": "用户4",
+                "num": "2",
+                "time": "7小时前"
+            }
+        ]
+    }
+}
