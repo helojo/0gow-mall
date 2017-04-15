@@ -1,7 +1,7 @@
 <template>
     <div class="slideWrap">
         <swiper :options="swiperOption">
-            <swiper-slide v-for="(item, index) in swiperData.items" :key="index">
+            <swiper-slide v-for="(item, index) in swiperData" :key="index">
                 <a :href = "item.url">
                     <img v-lazy="item.image" class="slideImg" />
                 </a>
@@ -30,16 +30,17 @@
                 }
             }
         },
-        computed : {
-            ...mapState(['swiperData'])
-        },
-        methods : {
-            ...mapActions(['getSwiperData'])
-        },
-        mounted(){
-            console.log(this.swiperData);
-            this.getSwiperData();
-        },
+
+        // computed : {
+        //     ...mapState(['swiperData'])
+        // },
+        // methods : {
+        //     ...mapActions(['getSwiperData'])
+        // },
+        // mounted(){
+        //     console.log(this.swiperData);
+        //     this.getSwiperData();
+        // },
         components : {
             swiper,
             swiperSlide

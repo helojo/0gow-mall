@@ -2,8 +2,10 @@ import axios from 'axios';
 
 const CHANGE_LIKE = 'CHANGE_LIKE';
 const GET_PRODUCT_PAGE_DATA = 'GET_PRODUCT_PAGE_DATA';
-const CHANGE_BUY_NUMS = 'CHANGE_BUY_NUMS';
+const REDUCE_BUY_NUMS = 'REDUCE_BUY_NUMS';
 const CHANGE_SPECIFICATION = 'CHANGE_SPECIFICATION';
+const PLUS_BUY_NUMS = 'PLUS_BUY_NUMS';
+
 
 const state = {
     productPageData: {},
@@ -13,7 +15,12 @@ const state = {
 };
 
 const getters = {
-    specification: state => state.specificationIndex
+    specification: state => state.specificationIndex,
+    buyNums: state => {
+        if (state.buyNums < 1) {
+            return 1;
+        }
+    }
 };
 
 const mutations = {
@@ -23,8 +30,14 @@ const mutations = {
     [GET_PRODUCT_PAGE_DATA](state, data) {
         state.productPageData = data;
     },
-    [CHANGE_BUY_NUMS](state, number) {
-        state.buyNums = number;
+    [REDUCE_BUY_NUMS](state) {
+        if (state.buyNums < 2) {
+            return;
+        }
+        state.buyNums = --state.buyNums;
+    },
+    [PLUS_BUY_NUMS](state) {
+        state.buyNums = ++state.buyNums;
     },
     [CHANGE_SPECIFICATION](state, index) {
         state.specificationIndex = index;
@@ -42,16 +55,26 @@ const actions = {
 
     },
     getProductPageData({ commit, state }, id) {
+        console.log('product id : ' + id);
+
         axios.get('../mock/product.json').then(response => {
             if (response.data.code == 1) {
                 commit(GET_PRODUCT_PAGE_DATA, response.data);
             }
         })
     },
-    changeBuyNums({ commit, state }, number) {
-        commit(CHANGE_BUY_NUMS, number);
+    changeBuyNums({ commit, state }, event) {
+        console.log(event.target.className);
+        let className = event.target.className;
+        if (className == "reduce") {
+            commit(REDUCE_BUY_NUMS);
+        } else if (className == "plus") {
+            commit(PLUS_BUY_NUMS);
+        }
+
     },
-    changeSpecification({ commit, state }, index) {
+    changeSpecification({ commit, state }, event) {
+        let index = event.target.getAttribute('data-index');
         commit(CHANGE_SPECIFICATION, index);
     }
 };

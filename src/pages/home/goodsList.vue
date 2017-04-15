@@ -3,7 +3,7 @@
         <p>猜你喜欢</p>
         <ul>
             <li v-for="(item, index) in goodsListData" :key="index" class="goods-item">
-                <a :href="`/product/${item.goods_id}`">
+                <a :href="`#/product/${item.goods_id}`">
                     <div class="goodsImg lineFont">
                         <img v-lazy="item.default_image" />
                     </div>

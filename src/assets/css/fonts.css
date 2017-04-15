@@ -114,3 +114,19 @@
 .fa-angle-double-right:before {
     content: '\f101'
 }
+
+.fa-home:before {
+    content: '\f015'
+}
+
+.fa-star-o:before {
+    content: '\f006'
+}
+
+.fa-qq:before {
+    content: '\f1d6'
+}
+
+.fa-times:before {
+    content: '\f00d'
+}

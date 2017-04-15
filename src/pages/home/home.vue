@@ -1,7 +1,7 @@
 <template>
     <div class="homeContent">
         <search-bar></search-bar>
-        <slide></slide>
+        <slide :swiperData="homePageData.topBanner.items"></slide>
         <div v-if="homePageData.adBanner" class="adverBanner">
             <img v-lazy="homePageData.adBanner.image" />
         </div>
