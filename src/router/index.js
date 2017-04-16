@@ -20,6 +20,7 @@ import Category from '../pages/category/category.vue'
 import My from '../pages/my/my.vue'
 import Cart from '../pages/cart/cart.vue'
 import Product from '../pages/product/product.vue'
+import Store from '../pages/store/store.vue'
 
 Vue.use(VueRouter);
 
@@ -53,6 +54,11 @@ export default new VueRouter({
             path: '/product/:id',
             name: 'Product',
             component: Product
+        },
+        {
+            path: '/store/:id',
+            name: 'Store',
+            component: Store
         }
     ]
 })
