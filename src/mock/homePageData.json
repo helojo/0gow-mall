@@ -4,39 +4,39 @@
     "topBanner": {
         "ad_id": "13",
         "items": [{
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f229",
+                "url": "/active/1413",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58ddf5292d96d?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "春夏新品"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f240",
+                "url": "/active/1414",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e44d1d7f628?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "一周精选"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f238",
+                "url": "/active/1415",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e448deecaca?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "男女内衣"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f237",
+                "url": "/active/1416",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e49ea310d13?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "天天特惠"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f236",
+                "url": "/active/1417",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e0564db30f4?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "美发沐浴"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f235",
+                "url": "/active/1418",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e0532d43f24?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "居家"
             }
         ]
     },
     "adBanner": {
-        "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f229",
+        "url": "/active/1420",
         "image": "https://ojn81nujc.qnssl.com/content0gow_58e44c5e850f5?imageMogr2/strip/quality/80/format/jpeg",
         "title": "春夏入口",
         "ad_id": "14"
@@ -47,42 +47,42 @@
         "img": "https://ojn81nujc.qnssl.com/1481189510message.png"
     },
     "icons": [{
-            "url": "http://a1.meiyameiwang.cn/category/mian",
+            "url": "/categoryDetail/1314",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572a4fb6?imageMogr2/strip/quality/80/format/gif",
             "title": "O圆区"
         },
         {
-            "url": "http://www.0gow.com/category/zero?id=0&pid=0&",
+            "url": "/categoryDetail/1315",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572b10db?imageMogr2/strip/quality/80/format/png",
             "title": "特卖推荐"
         },
         {
-            "url": "http://www.0gow.com/category/index?id=0&pid=0&",
+            "url": "/categoryDetail/1316",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572c158e?imageMogr2/strip/quality/80/format/png",
             "title": "精品区"
         },
         {
-            "url": "http://act.0gow.com/miaosha/index?",
+            "url": "/categoryDetail/1317",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572eca0e?imageMogr2/strip/quality/80/format/png",
             "title": "秒杀"
         },
         {
-            "url": "http://www.0gow.com/region/index?",
+            "url": "/categoryDetail/1318",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572d7dc9?imageMogr2/strip/quality/80/format/png",
             "title": "每日上新"
         },
         {
-            "url": "http://www.0gow.com/brand/index?",
+            "url": "/categoryDetail/1319",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572ccb51?imageMogr2/strip/quality/80/format/png",
             "title": "品牌街"
         },
         {
-            "url": "http://www.0gow.com/subject/155?",
+            "url": "/categoryDetail/1320",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e572e1821?imageMogr2/strip/quality/80/format/png",
             "title": "天天特惠"
         },
         {
-            "url": "http://act.0gow.com//pt/index?",
+            "url": "1321",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58c9e57305451?imageMogr2/strip/quality/80/format/png",
             "title": "拼团"
         }
@@ -191,19 +191,19 @@
     ],
     "hot": {
         "left": {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f237",
+            "url": "/hot/19",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58e49e417483f?imageMogr2/strip/quality/80/format/jpeg",
             "title": "天天特惠",
             "ad_id": "19"
         },
         "right1": {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f240",
+            "url": "/hot/20",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58e467dad46b3?imageMogr2/strip/quality/80/format/jpeg",
             "title": "一周精选",
             "ad_id": "20"
         },
         "right2": {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f238",
+            "url": "/hot/121",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58e467ffa3bb3?imageMogr2/strip/quality/80/format/jpeg",
             "title": "男女内衣",
             "ad_id": "21"
@@ -211,54 +211,54 @@
     },
     "jingpin": {
         "left": {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f232",
+            "url": "/jingpin/17",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58df001e821c0?imageMogr2/strip/quality/80/format/jpeg",
             "title": "男装",
             "ad_id": "17"
         },
         "right": {
-            "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f228",
+            "url": "/jingpin/16",
             "image": "https://ojn81nujc.qnssl.com/content0gow_58df009203021?imageMogr2/strip/quality/80/format/jpeg",
             "title": "女装",
             "ad_id": "16"
         },
         "category": [{
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f206",
+                "url": "/jingpin/18",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee20867f?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "童装童鞋"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f211",
+                "url": "/jingpin/19",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cce293?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "美妆"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f233",
+                "url": "/jingpin/20",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58e05d9cda2a2?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "男鞋"
             },
             {
-                "url": "http://www.0gow.com/login/wx?reffer=http%3a%2f%2fwww.0gow.com%2fsubject%2f220",
+                "url": "/jingpin/21",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58db8ee23c317?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "家居生活"
             },
             {
-                "url": "http://www.0gow.com/category/newlist?id=326&pid=427",
+                "url": "/jingpin/22",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d13c0b4?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "男装"
             },
             {
-                "url": "http://www.0gow.com/category/newlist?id=395&pid=392",
+                "url": "/jingpin/23",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a613dd?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "家用电器"
             },
             {
-                "url": "http://www.0gow.com/category/newarea?id=338",
+                "url": "/jingpin/24",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58cce44a6dfef?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "运动户外"
             },
             {
-                "url": "http://www.0gow.com/category/newlist?id=325&pid=427",
+                "url": "/jingpin/25",
                 "image": "https://ojn81nujc.qnssl.com/content0gow_58dc59d14a857?imageMogr2/strip/quality/80/format/jpeg",
                 "title": "女装"
             }

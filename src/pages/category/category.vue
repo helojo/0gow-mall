@@ -14,21 +14,9 @@
                     {{item.name}}
                </li>
            </ul>
-           <!--<template v-for="item in categoryPageData" v-if="">
-                <ul class="category-content-right">
-                    <li class="category-content-right-item" v-for="(item2, index) in item.list">
-                        <a :href="`\/${item2.cat_id}`">
-                            <div class="subCateImg">
-                                <img v-lazy="item2.img">
-                            </div>
-                            <h3>{{item2.name}}</h3>
-                        </a>
-                    </li>
-                </ul>
-           </template>-->
            <ul class="category-content-right">
                 <li class="category-content-right-item" v-for="(item, index) in categoryRightData">
-                    <a :href="`\/${item.cat_id}`">
+                    <a :href="`/#/twoLevCate/${item.cat_id}`">
                         <div class="subCateImg">
                             <img v-lazy="item.img">
                         </div>

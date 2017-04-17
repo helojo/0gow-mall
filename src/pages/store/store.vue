@@ -103,11 +103,10 @@
         padding: 0.2rem;
     }
     .store-name{
-        font-size: 0.6rem;
-        font-weight: 600%;
+        font-size: 0.4rem;
         height: 1rem;
         line-height: 1rem;
-        margin-top: 0.2rem;
+        margin-top: 0.1rem;
     }
     .store-desc{
         font-size: 0.5rem;

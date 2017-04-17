@@ -136,13 +136,8 @@
         height: 0.8rem;
         background: url(https://ojn8rdkav.qnssl.com/1462944439cart-store.png) no-repeat;
         background-position: center 0.3rem;
-        background-size: 80% 120%;
+        background-size: 70% 120%;
     }
-    /*.storeIcon img{
-        width: 100%;
-        height: auto;
-        align-self: flex-end;
-    }*/
     .store-name-content{
         display: flex;
         justify-content: flex-start;

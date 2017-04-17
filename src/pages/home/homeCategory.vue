@@ -2,7 +2,7 @@
     <ul class="homeCategory">
         <li v-for="(item, index) in homeCategoryData" :key="index">
             <div>
-                <a :href="item.url">
+                <a :href="`/#${item.url}`">
                     <img v-lazy="item.image" />
                 </a>
             </div>

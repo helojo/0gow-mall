@@ -3,7 +3,9 @@
         <search-bar></search-bar>
         <slide :swiperData="homePageData.topBanner.items"></slide>
         <div v-if="homePageData.adBanner" class="adverBanner">
-            <img v-lazy="homePageData.adBanner.image" />
+            <a :href="`/#${homePageData.adBanner.url}`">
+                <img v-lazy="homePageData.adBanner.image" />
+            </a>
         </div>
         <home-category :homeCategoryData="homePageData.icons"></home-category>
         <hot-area :hotAreaData = "homePageData.hot"></hot-area>
@@ -22,7 +24,7 @@
     import ToTop from '../../components/toTop.vue'
 
     import { mapState, mapActions} from 'vuex'
-    import {debounce} from 'lodash'
+    import {debounce, throttle} from 'lodash'
 
     export default{
         data(){
@@ -37,7 +39,7 @@
         },
         mounted(){
             this.getHomePageData();
-            window.addEventListener('scroll', debounce(this.handleScroll, 500));
+            window.addEventListener('scroll', throttle(this.handleScroll, 500));
         },
         components : {
             SearchBar,

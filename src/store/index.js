@@ -7,6 +7,8 @@ import cart from './modules/cart.js'
 import my from './modules/my.js'
 import product from './modules/product.js'
 import store from './modules/store.js'
+import twoLevCate from './modules/twoLevCate.js'
+
 
 Vue.use(Vuex);
 
@@ -38,7 +40,8 @@ export default new Vuex.Store({
         cart,
         my,
         product,
-        store
+        store,
+        twoLevCate
     }
 
 })

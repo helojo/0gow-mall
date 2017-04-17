@@ -21,6 +21,9 @@ import My from '../pages/my/my.vue'
 import Cart from '../pages/cart/cart.vue'
 import Product from '../pages/product/product.vue'
 import Store from '../pages/store/store.vue'
+import TwoLevCate from '../pages/twoLevelCategory/twoLevCate.vue'
+import Error from '../pages/404/404.vue'
+
 
 Vue.use(VueRouter);
 
@@ -59,6 +62,20 @@ export default new VueRouter({
             path: '/store/:id',
             name: 'Store',
             component: Store
+        },
+        {
+            path: '/twoLevCate/:id',
+            name: 'TwoLevCate',
+            component: TwoLevCate
+        },
+        {
+            path: '/404',
+            name: 'Error',
+            component: Error
+        },
+        {
+            path: '*',
+            redirect: '/404'
         }
     ]
 })

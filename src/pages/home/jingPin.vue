@@ -3,18 +3,18 @@
         <div class="jingPin-title">精品特卖</div>
         <div class="jingPin-content">
             <div class="jingPing-left">
-                <a :href="jingPinData.left.url">
+                <a :href="`/#${jingPinData.left.url}`">
                     <img v-lazy="jingPinData.left.image" />
                 </a>
             </div>
             <div class="jingPing-right">
-                <a :href="jingPinData.right.url">
+                <a :href="`/#${jingPinData.right.url}`">
                     <img v-lazy="jingPinData.right.image" />
                 </a>
             </div>
             <div class="jingPing-category">
                 <div class="jingPing-category-item"  v-for="(item, index) in jingPinData.category">
-                    <a :href="item.url">
+                    <a :href="`/#${item.url}`">
                         <img v-lazy="item.image" />
                     </a>
                 </div>

@@ -2,7 +2,7 @@
     <div class="slideWrap">
         <swiper :options="swiperOption">
             <swiper-slide v-for="(item, index) in swiperData" :key="index">
-                <a :href = "item.url">
+                <a :href = "`/#${item.url}`">
                     <img v-lazy="item.image" class="slideImg" />
                 </a>
             </swiper-slide>

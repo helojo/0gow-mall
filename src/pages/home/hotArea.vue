@@ -2,25 +2,25 @@
     <div class="hotArea">
         <div class="hotArea-title">
             <span>热卖专区</span>
-            <a href="">
+            <a :href="`/#/hot/`">
                 <span>更多优惠</span>
                 <span>></span>
             </a>
         </div>
         <div class="hotArea-adver">
             <div class="hotArea-adver-left">
-                <a :href="hotAreaData.left.url">
+                <a :href="`/#${hotAreaData.left.url}`">
                     <img v-lazy="hotAreaData.left.image" />
                 </a>
             </div>
             <div class="hotArea-adver-right">
                 <div class="hotArea-adver-right-content">
-                    <a :href="hotAreaData.right1.url">
+                    <a :href="`/#${hotAreaData.right1.url}`">
                         <img v-lazy="hotAreaData.right1.image" />
                     </a>
                 </div>
                 <div class="hotArea-adver-right-content">
-                    <a :href="hotAreaData.right2.url">
+                    <a :href="`/#${hotAreaData.right2.url}`">
                         <img v-lazy="hotAreaData.right2.image" />
                     </a>
                 </div>
