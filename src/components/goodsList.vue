@@ -28,16 +28,19 @@
     import LoadingTips from './loadingTips.vue'
     import LoadedTips from './loadedTips.vue'
     export default{
+        props : ['goodsListData', 'busy', 'isShowLoadingTips', 'isShowLoadedTips'],
         data(){
             return{
 
             }
         },
-        computed: {
-            ...mapState(['busy', 'goodsListData', 'isShowLoadingTips', 'isShowLoadedTips'])
-        },
+        // computed: {
+        //     ...mapState(['busy','isShowLoadingTips', 'isShowLoadedTips'])
+        // },
         methods : {
-            ...mapActions(['getGoodsListData'])
+            getGoodsListData(){
+                this.$emit('getNextPageData');
+            }
         },
         components: {
             LoadingTips,

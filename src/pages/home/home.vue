@@ -24,7 +24,6 @@
     import ToTop from '../../components/toTop.vue'
 
     import { mapState, mapActions} from 'vuex'
-    import {debounce, throttle} from 'lodash'
 
     export default{
         data(){
@@ -32,14 +31,13 @@
             }
         },
         computed : {
-            ...mapState(['homePageData', 'isShowLoadingTips'])
+            ...mapState(['homePageData'])
         },
         methods : {
-            ...mapActions(['getHomePageData', 'handleScroll'])
+            ...mapActions(['getHomePageData'])
         },
         mounted(){
             this.getHomePageData();
-            window.addEventListener('scroll', throttle(this.handleScroll, 500));
         },
         components : {
             SearchBar,

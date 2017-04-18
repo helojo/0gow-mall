@@ -4,7 +4,8 @@
     </div>
 </template>
 <script>
-    import {mapState} from 'vuex'
+    import {mapState, mapActions} from 'vuex'
+    import {debounce, throttle} from 'lodash'
 
     export default{
         data(){
@@ -18,7 +19,12 @@
         methods : {
             toTop :function(){
                document.body.scrollTop = 0;     
-             }
+             },
+             ...mapActions(['handleScroll'])
+        },
+        mounted(){
+            window.addEventListener('scroll', throttle(this.handleScroll, 500));
+           
         }
     }
 </script>

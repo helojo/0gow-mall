@@ -1,22 +1,25 @@
 <template>
     <div class="twoLevCate">
-        <div class="twoLevCate-topBanner" @click="changeSortType($event)">
+        <div class="twoLevCate-topBanner">
             <div class="priceSort" @click="changePriceSortShow" :class="{active : twoLevCate.sort.priceUpSort || twoLevCate.sort.priceDownSort }">
                 价格排序<i class="fa fa-chevron-down" :class="{active : priceSortShow}"></i>
                 <div class="priceSortContent" v-show="priceSortShow">
-                    <div class="priceUpSort" :class="{active : twoLevCate.sort.priceUpSort}">价格从低到高</div>
-                    <div class="priceDownSort" :class="{active : twoLevCate.sort.priceDownSort}">价格从高到低</div>
+                    <div class="priceUpSort" :class="{active : twoLevCate.sort.priceUpSort}"  @click="changeSortType($event)">价格从低到高</div>
+                    <div class="priceDownSort" :class="{active : twoLevCate.sort.priceDownSort}"  @click="changeSortType($event)">价格从高到低</div>
                 </div>
             </div>
-            <div class="hotSaleSort" :class="{active : twoLevCate.sort.hotSaleSort}">热销</div>
-            <div class="newSaleSort" :class="{active : twoLevCate.sort.newSaleSort}">上新</div>
+            <div class="hotSaleSort" :class="{active : twoLevCate.sort.hotSaleSort}"  @click="changeSortType($event)">热销</div>
+            <div class="newSaleSort" :class="{active : twoLevCate.sort.newSaleSort}"  @click="changeSortType($event)">上新</div>
         </div>
-        <goods-list></goods-list>
+        <goods-list @getNextPageData="getNextGoodsListPageData" :goodsListData = "twoLevCate.goodsListData" 
+            :busy = "twoLevCate.busy" :isShowLoadingTips = "twoLevCate.isShowLoadingTips" :isShowLoadedTips = "twoLevCate.isShowLoadedTips"></goods-list>
+        <to-top></to-top>
     </div>
 </template>
 <script>
     import { mapState, mapActions} from 'vuex';
     import GoodsList from '../../components/goodsList.vue';
+    import ToTop from '../../components/toTop.vue';
 
     export default{
         data(){
@@ -28,16 +31,19 @@
             ...mapState(['twoLevCate'])
         },
         methods: {
-            ...mapActions(['getTwoLevCateData', 'changeSortType']),
+            ...mapActions(['getTwoLevCateData', 'changeSortType', 'getNextGoodsListPageData']),
             changePriceSortShow(){
                 this.priceSortShow = !this.priceSortShow;
             }
+
         },
         mounted(){
             this.getTwoLevCateData({id : this.$route.params.id});
+            // this.getNextGoodsListPageData();
         },
         components : {
-            GoodsList
+            GoodsList,
+            ToTop
         }
     }
 </script>
@@ -82,6 +88,7 @@
         text-align: left;
         border-bottom: 1px solid #ccc;
         padding-left: 0.6rem;
+        color: black;
     }
     .fa.fa-chevron-down{
         font-size: 0.4rem;

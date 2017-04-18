@@ -1,6 +1,5 @@
 <template>
     <div class="goodsList" v-infinite-scroll="getGoodsListData" infinite-scroll-disabled="busy" infinite-scroll-distance="10">
-        <p>猜你喜欢</p>
         <ul>
             <li v-for="(item, index) in goodsListData" :key="index" class="goods-item">
                 <a :href="`#/product/${item.goods_id}`">
