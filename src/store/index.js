@@ -28,7 +28,8 @@ const state = {
     goodsListNums: 1,
     isTopBarShow: false,
     isToTopBarShow: false,
-    initIndex: 0
+    initIndex: 0,
+    globalLoading: false
 }
 
 export default new Vuex.Store({

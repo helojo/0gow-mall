@@ -12,7 +12,8 @@ import {
     GET_GOODS_LIST_DATA,
     CHANGE_GOODS_LIST_NUMS,
     CHANGE_CATEGORY_RIGHT_DATA,
-    CHANGE_INITINDEX
+    CHANGE_INITINDEX,
+    CHANGE_GLOBAL_LOADING
 } from './mutation-types.js'
 
 export default {
@@ -55,4 +56,7 @@ export default {
     [CHANGE_INITINDEX](state, index) {
         state.initIndex = index;
     },
+    [CHANGE_GLOBAL_LOADING](state) {
+        state.globalLoading = !state.globalLoading;
+    }
 }

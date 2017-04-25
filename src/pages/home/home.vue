@@ -28,6 +28,7 @@
     export default{
         data(){
             return{
+                globalLoading : true
             }
         },
         computed : {
@@ -38,6 +39,7 @@
         },
         mounted(){
             this.getHomePageData();
+            document.querySelector('.globalLoading').classList.add('hide');
         },
         components : {
             SearchBar,
