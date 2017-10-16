@@ -1,8 +1,8 @@
 # 0gow-mall
 
-> 0gow-mall with vue vuex vue-router
+> 0gow-mall with Vue Vuex Vue-router axios
 
-## Build Setup
+## 安装步骤
 
 ``` bash
 # install dependencies
@@ -18,5 +18,23 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # 0gow-mall
+## 使用Vue生态系统开发的简易商城
+### 工程目录结构
+
+<img src="./dir-image/dir.png">
+
+### 运行界面
+
+<img src="./dir-image/home.png" title="首页">
+
+<img src="./dir-image/fenlei.png" title="分类">
+
+<img src="./dir-image/cart.png" title="购物车">
+
+<img src="./dir-image/my.png" title="个人中心">
+
+<img src="./dir-image/detail.png" title="商品详情">
+
+#### 最后
+>该商城仅仅完成了部分功能，仅是为了更加熟悉vue的使用方式
