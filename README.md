@@ -22,7 +22,7 @@ npm run build --report
 ## 使用Vue生态系统开发的简易商城
 ### 工程目录结构
 
-<img src="./dir-image/dir.png">
+<img src="./dir-image/dir.png" title="目录结构">
 
 ### 运行界面
 
